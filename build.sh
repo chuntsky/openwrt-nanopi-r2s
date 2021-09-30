@@ -80,7 +80,7 @@ download_clash_files() {
 # clone openwrt
 cd "$PROJ_DIR"
 rm -rf openwrt
-git clone -b v21.02.0-rc4 https://github.com/openwrt/openwrt.git openwrt
+git clone -b v19.07.8 https://github.com/openwrt/openwrt.git openwrt
 
 # patch openwrt
 cd "$PROJ_DIR/openwrt"
