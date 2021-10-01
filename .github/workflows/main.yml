@@ -7,9 +7,8 @@
 name: openwrt-21.02
 
 on:
-  push:
-    paths:
-      - 'README.md'
+  watch:
+    types: [started]
 
 jobs:
   build:
