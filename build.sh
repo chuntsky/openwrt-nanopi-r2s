@@ -131,6 +131,12 @@ git clone -b master --depth 1 https://github.com/jerrykuku/luci-theme-argon.git 
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/luci-app-uugamebooster custom/luci-app-uugamebooster
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/uugamebooster custom/uugamebooster
 
+# luci-app-dockerman 
+# svn co svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman custom/luci-app-dockerman
+git clone https://github.com/lisaac/luci-lib-docker.git custom/luci-lib-docker
+git clone https://github.com/lisaac/luci-app-dockerman.git custom/luci-app-dockerman
+
+
 # clean up packages
 cd "$PROJ_DIR/openwrt/package"
 find . -name .svn -exec rm -rf {} +
